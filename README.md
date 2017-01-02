@@ -1,1 +1,1 @@
-# html_ass_2
+In the project folder, open up the index.html page to navigate on the webpage
