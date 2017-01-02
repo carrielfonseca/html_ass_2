@@ -1,0 +1,271 @@
+@charset "utf-8";
+
+/* CSS documents for the Online cooking Website */
+/* Develop by FABIO and Tejinder */
+
+
+/* Styling the body selector */
+body
+{
+    margin:0;
+    padding:0;
+    background-image:url('wooden_texture.jpg');
+    color:#000;
+    font-family:"Lucida Sans-Serif","Lucida grande","Sans-Serif";
+}
+
+/* styling the wrapper id selector */
+#wrapper
+{
+    /* use % in width because if u resize the window picture size also changes */
+    width:980px;
+    margin:0 auto;
+    background-color:#ffffff;
+    /*background-image:url("../images/veg.png");*/
+    background-repeat:no-repeat;
+ 
+     
+}
+
+/* styling the main title */
+
+#header h1
+{
+    font-size:66px;
+    margin:0 0 0.3em 0;
+    padding:25px 0 0 340px;
+    color: #ED0933;
+   
+    -webkit-text-shadow:3px 3px 3px rgda(0,0,0,0.25);
+    -ms-text-shadow:3px 3px 3px rgda(0,0,0,0.25);
+    -o-text-shadow:3px 3px 3px rgda(0,0,0,0.25);
+    -moz-text-shadow:3px 3px 3px rgda(0,0,0,0.25);
+     text-shadow:3px 3px 3px rgba(0,0,0,0.25);
+}
+
+
+h3
+{
+    font-size:22px;
+}
+
+#nav
+{
+    list-style-type:none;
+    margin: 0 auto 15px auto;
+    padding-top: 30px;
+    font-weight:bold;
+    font-size:17px;
+    height:35px;
+}
+/* put inline of navigator */
+#nav li
+{
+    float:left;
+    margin:0 1px;
+}
+
+#nav li a
+{
+   display:block;
+   width:100px;
+   padding:10px;
+   text-align:center;
+   text-decoration:none;
+   color:#fff;
+   background-color:#003;
+   /* round the corner */
+   border-radius:8px;
+   -webkit-border-radius:8px;
+   -ms-border-radius:8px;
+   -o-border-radius:8px;\
+   -moz-border-radius:8px;
+
+
+   /* add shadow in navigation */
+   -webkit-box-shadow:2px 2px 3px #999;
+   -o-box-shadow:2px 2px 3px #999;
+   -mos-box-shadow:2px 2px 3px #999;
+   -ms-box-shadow:2px 2px 3px #999;
+   box-shadow:2px 2px 3px #999;
+} 
+
+/* styling the selector elements in anchor */
+#nav a:hover, #nav a:active,  #nav a:focus
+{
+   background-color:#26267F;
+}
+
+
+/* styling the "hero" selector of index page */ 
+
+
+#Thumbs
+{
+    list-style-type:none;
+}
+/* put inline of navigator */
+
+
+.floatLeft
+{
+    float :left;
+    margin:3px 12px 3px 0;
+}
+.floatRight
+{
+    float:right;
+    margin:3px 0 3px 12px;
+}
+
+
+
+.content-wide, .content-midium, .aside
+{
+    background-color:#fff;
+    margin:20px;
+    padding:20px;
+    font-size:14px;
+    -webkit-box-shadow:3px 3px 5px 2px#999;
+    -o-box-shadow:3px 3px 5px 2px #999;
+    -ms-box-shadow:3px 3px 5px 2px #999;
+    -moz-box-shadow:3px 3px 5px 2px #999;
+    box-shadow:3px 3px 5px 2px #999;
+    
+
+}
+.content-midium
+{
+    float:left;
+    /*width:640px; */
+    margin-top:5px;
+    display:inline; /* fix margin bug in IE v,6 and 7 */
+}
+
+.aside
+{
+    /*margin-left:720px;*/
+    padding:10px;
+}
+
+
+.center
+{
+margin-left:auto;
+margin-right:auto;
+width:70%;
+background-color:#b0e0e6;
+}
+
+
+.indexImage
+{
+   float:left;
+   margin: 0 10px 10px 0;
+   width: 162px;
+   height:100px;
+}
+
+
+.thumbTitle
+{
+   font-size: 14px;
+   font-weight:bold;
+}
+
+.thumbText
+{
+   font-size: 20px;
+   font-weight:bold;
+}
+
+
+/* styling the footer */
+#footer 
+{
+    color:#fff;
+    background-color:#003;
+    padding:5px 30px;
+    clear:both;
+    text-align: center;
+}
+
+#footer a 
+{
+	color: #4EF287;
+	text-decoration:none;
+}
+
+
+
+
+#contactUs
+{
+  width: 700px;
+}
+
+.formCenter
+{
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 13px;
+  background-color:#fff;
+  padding:20px;
+    font-size:14px;
+    -webkit-box-shadow:3px 3px 5px 2px#999;
+    -o-box-shadow:3px 3px 5px 2px #999;
+    -ms-box-shadow:3px 3px 5px 2px #999;
+    -moz-box-shadow:3px 3px 5px 2px #999;
+    box-shadow:3px 3px 5px 2px #999;
+    
+    -webkit-border-radius:18px;
+   -ms-border-radius:18px;
+   -o-border-radius:18px;\
+   -moz-border-radius:18px;
+   -border-radius:18px;
+}
+
+#contactUs label
+{
+    display:inline-block;
+    font-weight:bold;
+    width:130px;
+    padding-left: 15px;
+    vertical-align:top;
+}
+
+#firstName, #lastName, #email
+{
+  width: 300px;
+}
+#submitMessage
+{
+    margin-left:150px;
+}
+
+
+.recipesLinks
+{
+  font-size: 16px;
+  line-height: 25px;
+  
+}
+
+.question
+{
+    font-weight:bold;
+}
+
+#article th {
+color:white;
+font-weight:bold;
+background-color:blue;
+}
+
+#article tr:nth-child(even) {background: #CCC} 
+#article tr:nth-child(odd) {background: #FFF}
+
+
+
+
+

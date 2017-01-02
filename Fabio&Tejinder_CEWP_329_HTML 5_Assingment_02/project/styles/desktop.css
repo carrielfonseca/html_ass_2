@@ -1,0 +1,24 @@
+@charset "utf-8";
+.content-midium
+{
+    
+    width:660px;
+}
+#wrapper
+{
+	background-image:url("../images/veg.png")
+}
+.aside
+{
+	margin-left:730px;
+}
+#hero
+{
+	background-image:url("../images/cook_desktop.jpg");
+    background-position:280px 50px;
+        background-repeat: no-repeat;
+}
+.index,.index1
+{
+    padding-right:410px;
+}

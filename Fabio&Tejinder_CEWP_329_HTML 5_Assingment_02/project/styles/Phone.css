@@ -1,0 +1,71 @@
+@charset "utf-8";
+/* Phone.css file */
+#wrapper
+{
+    width:100%;
+
+   background-image:url("../images/veg_phone.jpg");
+    background-size:contain;
+}
+
+#header h1
+{
+    font-size:36px;
+    padding-left:0;
+    margin-bottom:0;
+    padding-left:90px;
+    padding-top:5px;
+  
+}
+
+h2
+{
+    font-size:24px;
+}
+
+/* styling the  nav id selector */
+#nav
+{
+   
+    width:308px;
+    margin:0 auto 5px auto;
+    height:95px;
+}
+/* styling the anchor inside the nav */
+#nav li a
+{
+    width:136px;
+    margin:0 6px 2px 6px;
+    padding:5px 2px;
+
+}
+#nav li:last-child a
+{
+    margin-left:74px;
+}
+
+/* styling the hero select (main selector) on the ind3ex page */
+#hero
+{
+    margin:5px;
+    padding: 10px;
+    width:auto;
+    height:auto;
+    min-height:0;
+    min-height:279px;
+ 
+  
+ 
+}
+* styling the content container on other pages */
+.content-wide, .content-midium, .aside
+{
+    margin:0 5px 5px 5px;
+    padding:10px;
+    width:auto;
+    float:none;
+ }
+ .aside
+{
+    margin-top:930px;
+}
